@@ -1,2 +1,2 @@
-# PyChallenge
-Python Challenge
+# PythonChallenge
+Challenge on PyBank and PyPoll
