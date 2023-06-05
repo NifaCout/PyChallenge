@@ -1,7 +1,7 @@
 import csv
 
 
-with open('C:/Users/NCout/Desktop/LearnPy/Resources/budget_data.csv', 'r') as file:
+with open('C:/Users/NCout/Desktop/ClassGithub/PyChallenge/Resources/budget_data.csv', 'r') as file:
     reader=csv.reader(file)
     header=next(reader)
     total_months = 0
