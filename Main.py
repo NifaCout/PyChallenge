@@ -1,6 +1,6 @@
 import csv
 
-with open('C:/Users/NCout/Desktop/LearnPy/Resources/budget_data.csv', 'r') as file:
+with open('C:/Users/NCout/Desktop/ClassGithub/PyChallenge/Resources/budget_data.csv', 'r') as file:
     reader = csv.reader(file)
     header = next(reader)
     total_months = 0
@@ -61,7 +61,7 @@ with open('budget_analysis.txt', 'w') as output:
     output.write("\n")
 
 # election 
-with open('C:/Users/NCout/Desktop/LearnPy/Resources/election_data.csv', 'r') as file:
+with open('C:/Users/NCout/Desktop/ClassGithub/PyChallenge/Resources/election_data.csv', 'r') as file:
     reader = csv.reader(file)
     header = next(reader)
 
